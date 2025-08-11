@@ -1,0 +1,27 @@
+object frmAbout: TfrmAbout
+  Left = 404
+  Top = 296
+  BorderStyle = bsDialog
+  Caption = 'Sobre'
+  ClientHeight = 284
+  ClientWidth = 620
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 520
+    Top = 248
+    Width = 75
+    Height = 25
+    TabOrder = 0
+    Kind = bkOK
+  end
+end
